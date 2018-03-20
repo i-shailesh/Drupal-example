@@ -1,0 +1,6 @@
+name: batch cron queue
+description: An example module for D8.
+package: Custom
+type: module
+core: 8.x
+

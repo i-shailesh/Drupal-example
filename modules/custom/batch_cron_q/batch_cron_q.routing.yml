@@ -1,0 +1,8 @@
+batch_cron_q.batch:
+  path: '/batch-cron-q'
+  defaults:
+    _controller: '\Drupal\batch_cron_q\Controller\BatchCronQueueController::content'
+    _title: 'Batch Cron Queue'
+  requirements:
+    _permission: 'access content'
+    
